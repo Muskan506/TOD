@@ -1,0 +1,134 @@
+/* Sidebar and navbar styles */
+
+.side-text {
+  margin-left: 12px;
+}
+
+.side-menu {
+  display: flex;
+  color: #e1e9fc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  height: 45px;
+
+  font-size: 15px;
+}
+
+.side-menu:hover {
+  background: #252831;
+  border-left: 4px solid #ff6600;
+  cursor: pointer;
+  color: #fff;
+}
+
+.dropdown-text {
+  background: #414757;
+  height: 30px;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 15px;
+}
+.dropdown-text:hover {
+  background: #ff6600;
+  cursor: pointer;
+  color: #fff;
+}
+
+.header {
+  background-color: #242b2e;
+  height: 8.6vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25px;
+}
+
+.menu-bars {
+  margin-left: 50px;
+}
+
+.sidenav {
+  /* height: 91vh; */
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #242b2e;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.side-menu-items {
+  width: 100%;
+  overflow-y: auto;
+  height: 91.5vh;
+}
+.side-menu-items::-webkit-scrollbar {
+  display: none;
+}
+
+.select {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Lexend", sans-serif;
+  margin-right: 15px;
+}
+
+/* Dashboard Content */
+#main {
+  transition: 0.5s;
+  height: 91.4vh;
+  overflow: auto;
+  width: 100%;
+}
+
+.input-width {
+  width: 80%;
+}
+.button-width {
+  width: 45%;
+}
+tbody {
+  background-color: white;
+}
+
+/* Ongoing rides */
+.filter {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 30px 15px 30px 15px;
+}
+.my-modal {
+  width: 90vw; /* Occupy the 90% of the screen width */
+  max-width: 90vw;
+}
+.modal-width{
+  max-width: 75%;
+}
+.modal-widthpromo{
+  max-width: 60%;
+  max-height: 50%;
+}
+.modal-widthcoupons{
+  max-width: 70%;
+}
+.modal-widthdetail{
+  max-width: 40%;
+}
+.modal-widthvehicle{
+  max-width: 70%;
+}
+.td-center td{
+vertical-align: middle;
+}
+.modal-widthmanager{
+  max-width: 50%;
+}
